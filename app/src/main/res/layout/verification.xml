@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ScrollView android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            tools:ignore="RtlCompat">
+
+
+            <RelativeLayout android:id="@+id/code_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="170dp"
+                android:layout_below="@+id/get"
+                android:layout_centerInParent="true"
+                tools:ignore="RtlCompat">
+
+
+                <EditText android:id="@+id/code_1"
+                    android:background="@drawable/all_style"
+                    android:layout_marginLeft="0dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:textColor="@color/____________color"
+                    android:gravity="center"
+                    android:hint="ــ"
+                    android:inputType="number"
+                    android:textSize="20sp"
+                    android:textColorHint="@color/_________color"
+                    android:padding="10dp"
+                    android:layout_marginRight="5dp"
+                    android:textDirection="anyRtl"/>
+
+            </RelativeLayout>
+
+            <TextView android:id="@+id/title"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/____________color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_below="@+id/get"
+                android:layout_centerInParent="true"
+                android:text="رمز التحقق"
+                />
+
+            <TextView android:id="@+id/title_code"
+                android:textSize="18sp"
+                android:textColor="@color/____________color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_below="@+id/get"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/title_code"
+                />
+
+            <RelativeLayout android:id="@+id/get"
+                android:layout_marginTop="50dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                tools:ignore="RtlCompat">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="150dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@raw/logo" />
+
+            </RelativeLayout>
+
+            <Button android:id="@+id/button"
+                android:background="@drawable/botton_box"
+                android:layout_width="324dp"
+                android:layout_height="40dp"
+                android:text="@string/confirm_string"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="280dp"
+                android:layout_below="@+id/get"
+                android:layout_centerInParent="true"
+                android:textColor="@color/text_shadow_white"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>

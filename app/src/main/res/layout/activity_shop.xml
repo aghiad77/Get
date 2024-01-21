@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    app:cardBackgroundColor="@color/home_color_2"
+    tools:openDrawer="start">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/mainrela"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/logo"
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp" />
+
+                    <TextView
+                        android:id="@+id/store"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                       android:layout_marginRight="50dp"
+                        android:textSize="30sp"
+                        android:textColor="@color/_9_41_pm_color" />
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/back"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/Rmain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/mainrela"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView_categories"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Lmain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/Rmain"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView_subCategories"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/textrel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Lmain"
+                    android:layout_marginTop="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/hintempty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="لا يوجد منتجات!"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/text_shadow"
+                        android:layout_centerHorizontal="true"
+                        android:visibility="invisible"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/rlMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textrel"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView_products"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

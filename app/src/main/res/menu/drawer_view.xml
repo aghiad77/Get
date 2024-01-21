@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:menuCategory="system">
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/ic_order"
+            android:title="طلباتي" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="المفضلة" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="الحساب" />
+        <item
+            android:id="@+id/nav_complaints"
+            android:icon="@drawable/ic_complaints"
+            android:title="الشكاوي والمقترحات" />
+        <item
+            android:id="@+id/nav_condition"
+            android:icon="@drawable/ic_work"
+            android:title="الشروط والأحكام" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_call"
+            android:title="اتصل بنا" />
+        <item
+            android:id="@+id/nav_myShop"
+            android:icon="@drawable/ic_business"
+            android:title="المتجر" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="تسجيل الخروج" />
+    </group>
+</menu>

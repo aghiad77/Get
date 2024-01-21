@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="end"
+    android:layoutDirection="rtl"
+    android:layout_gravity="end">
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@raw/notify"
+        android:title="@string/title_notifications" />
+
+    <item
+        android:id="@+id/navigation_categories"
+        android:icon="@raw/category"
+        android:title="@string/title_categories" />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@raw/mcart"
+        android:title="@string/title_cart" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@raw/home"
+        android:title="@string/title_home" />
+
+
+</menu>

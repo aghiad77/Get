@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout android:id="@+id/group_989"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/home_color_2"
+        android:layout_gravity="center">
+
+        <RelativeLayout android:id="@+id/rectangle_311"
+            android:background="@drawable/rectangle_cart_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <TextView android:id="@+id/order_id"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/order_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:gravity="end"
+            android:layout_below="@+id/order_id"
+            android:textColor="@color/_________color"
+            android:textSize="16sp" />
+
+        <TextView android:id="@+id/order_shipped_date"
+            android:fontFamily="Cairo"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/order_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/order_total_price"
+            android:fontFamily="Cairo"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/order_shipped_date"/>
+
+        <TextView android:id="@+id/order_transport_price"
+            android:fontFamily="Cairo"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/order_total_price"/>
+
+        <TextView android:id="@+id/order_transport_message"
+            android:fontFamily="Cairo"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/order_transport_price"/>
+
+        <TextView android:id="@+id/order_status"
+            android:fontFamily="Cairo"
+            android:textColor="@color/design_default_color_error"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/order_transport_message"/>
+
+        <Button
+            android:id="@+id/more"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="left|bottom"
+            android:layout_below="@id/order_transport_message"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="تفاصيل الطلبية"
+            android:textColor="@color/text_shadow_white"
+            android:background="@drawable/buttom_cart_box"/>
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@raw/delete"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

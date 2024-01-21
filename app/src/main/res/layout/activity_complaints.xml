@@ -1,0 +1,45 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView android:id="@+id/home_page___1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText android:id="@+id/editText"
+                android:textSize="14sp"
+                android:background="@drawable/rectangle_13_shape"
+                android:textColor="#000000"
+                android:layout_width="300dp"
+                android:layout_height="260dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="190dp"
+                android:hint="اكتب اقتراحك أو شكواك من فضلك....."
+                android:textDirection="anyRtl" />
+
+
+            <Button android:id="@+id/send"
+                android:background="@drawable/botton_box"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="إرسال"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/text_shadow_white"
+                android:layout_below="@+id/editText"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

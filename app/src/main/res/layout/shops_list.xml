@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/home_color_2">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/shop_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:foregroundGravity="center"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/logo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="Cairo"
+            android:textColor="@color/_________color"
+            android:layout_below="@+id/shop_image"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout >

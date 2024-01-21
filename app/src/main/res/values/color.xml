@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#312783</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#E30613</color>
+    <color name="blue_pressed">#92AADD</color>
+    <color name="blue_normal">#516590</color>
+    <color name="_bg__login___1_color">#b9b9b9</color>
+    <color name="____________color">#131313</color>
+    <color name="_bg__splash_screen_1_color">#000000</color>
+    <color name="_______________________color">#131313</color>
+    <color name="_9_41_pm_color">#000000</color>
+    <color name="what_you_see_is_what_you_get__color">#606060</color>
+    <color name="box_color">#FFD706</color>
+    <color name="splash_color">#E8FCFB</color>
+    <color name="_________color">#131313</color>
+    <color name="_________ek1_color">#606060</color>
+    <color name="_bg__home_color">#000000</color>
+    <color name="home_color_1">#B9B9B9</color>
+    <color name="home_color_2">#FFFFFF</color>
+    <color name="home_color_3">#F0E4E0E0</color>
+    <color name="home_color_4">#AEE4E1E1</color>
+    <color name="_bg_________________color">#b9b9b9</color>
+    <color name="notification_1">#B2DBD5D5</color>
+    <color name="offer_1">#868585</color>
+    <color name="offer_2">#DBCD8B</color>
+    <color name="trans">#80000000</color>
+    <color name="order_status_cancel">#D3FA0000</color>
+    <color name="order_status_underway">#FFD706</color>
+    <color name="order_status_delivered">#D825FA00</color>
+    <color name="cardview_backgroundcolor">#CECECE</color>
+    <color name="spinner_color">#FBFBFB</color>
+    <color name="dark">#DC161515</color>
+    <color name="view_all">#25d366</color>
+</resources>

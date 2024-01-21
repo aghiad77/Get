@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout android:id="@+id/group_989"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/home_color_2"
+        android:layout_gravity="center">
+
+        <ImageView android:id="@+id/rectangle_311"
+            android:src="@drawable/rectangle_cart_product"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <ImageView android:id="@+id/order_image"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"/>
+
+
+        <TextView android:id="@+id/order_name"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الـمنتج  " />
+
+        <TextView android:id="@+id/name_value"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/order_name"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/order_quantity"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الـكمية  " />
+
+        <TextView android:id="@+id/quantity_value"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/order_quantity"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/order_size"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="85dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الـقياس  " />
+
+        <TextView android:id="@+id/size_value"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/order_size"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="85dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/order_color"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="النكهة  " />
+
+        <TextView
+            android:id="@+id/variant_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_toLeftOf="@+id/product_color"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="80dp"/>
+
+        <TextView android:id="@+id/order_price"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="155dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الـسعر " />
+
+        <TextView android:id="@+id/price_value"
+            android:textSize="16sp"
+            android:textColor="@color/_________color"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@+id/order_price"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="155dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
